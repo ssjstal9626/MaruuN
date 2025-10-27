@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1400px">
+    <title>MaruuN</title>
+    <link rel="stylesheet" href="../css/sub4.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/fabicon.png">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <div id="header">
+        <h1 class="logo">
+            <a href="../index.html">
+                <img src="../images/logo.png" alt="MaruuN">
+            </a>
+        </h1>
+        <ul class="gnb">
+            <li><a href="./sub1.html">MaruuN<div class="line"></div></a></li>
+            <li><a href="./sub2.html">전시 안내<div class="line"></div></a></li>
+            <li><a href="./sub3.html">MD<div class="line"></div></a></li>
+            <li><a href="./sub4.html">이벤트&공지<div class="line"></div></a></li>
+        </ul>
+        <ul class="util">
+            <li><img src="../images/gnb icon/search.png" alt="search"></li>
+            <li><img src="../images/gnb icon/login.png" alt="login"></li>
+        </ul>
+    </div>
+    <!-- BANNER -->
+    <div id="banner">
+        <div class="banbg">
+            <div data-aos="fade-down" data-aos-offset="300" data-aos-duration="800">
+                <h1 class="bntext">
+                    함께 나누는<br>
+                    마룬의 소식
+                </h1>
+            </div>
+        </div>
+    </div>
+    <!-- COMMUNITY -->
+    <div id="community">
+        <div data-aos="fade-up" data-aos-anchor-placement="top-center">
+            <div class="commbox">
+                <h2 class="title">COMMUNITY</h2>
+                <ul class="community">
+                    <li class="tab tablink on" onclick="openBoard(event,'Board01')">공지사항
+                        <div class="bg"></div>
+                    </li>
+                    <li class="tab tablink" onclick="openBoard(event,'Board02')">이벤트
+                        <div class="bg"></div>
+                    </li>
+                </ul>
+                <div id="Board01" class="textbox board">
+                    <ul class="notice">
+                        <li class="tab">
+                            <div class="number">04</div>
+                            <div class="noticetitle">마룬 x 감천문화마을 스탬프투어 협업 안내</div>
+                            <div class="date">2025.09.26</div>
+                        </li>
+                        <li class="tab">
+                            <div class="number">03</div>
+                            <div class="noticetitle">마룬 x 듀가나디 팝업스토어 오픈</div>
+                            <div class="date">2025.09.14</div>
+                        </li>
+                        <li class="tab">
+                            <div class="number">02</div>
+                            <div class="noticetitle">9월 단체 관람 신청 및 유의사항 안내</div>
+                            <div class="date">2025.08.20</div>
+                        </li>
+                        <li class="tab">
+                            <div class="number">01</div>
+                            <div class="noticetitle">
+                                <11월의 클래식> 티켓 예매 오픈 안내
+                            </div>
+                            <div class="date">2025.08.14</div>
+                        </li>
+                    </ul>
+                </div>
+                <div id="Board02" class="textbox board" style="display:none;">
+                    <ul class="event">
+                        <li>
+                            <div class="eventpic"><img src="../images/sub4/event1.png" alt="event1"></div>
+                            <div class="eventtext">
+                                <p><span>9월 인스타그램 후기 업로드 이벤트 안내</span></p>
+                                <div class="eventdate">2025.08.31</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="eventpic"><img src="../images/sub4/event2.png" alt="event2"></div>
+                            <div class="eventtext">
+                                <p><span>가을 시즌 한정 메뉴 - 무화과 출시!</span></p>
+                                <div class="eventdate">2025.08.25</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- DIRECTIONS -->
+    <div id="directions">
+        <div data-aos="fade-up" data-aos-anchor-placement="top-center">
+            <div class="direcbox">
+                <h2 class="title">DIRECTIONS</h2>
+                <div class="map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3264.3732183443312!2d129.0105924!3d35.09739040000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3568e9b7a3113a51%3A0x977e01d7224cf6a3!2z6rCQ7LKc66y47ZmU66eI7J2E!5e0!3m2!1sko!2skr!4v1761031217766!5m2!1sko!2skr"
+                        width="1320" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="content">
+                    <ul class="adress">
+                        <li>
+                            <h3 class="subname">주소</h3>
+                            <p>부산광역시 사하구 감내2로 203 (감천동)</p>
+                        </li>
+                        <li>
+                            <h3 class="subname">영업시간</h3>
+                            <p>오전 10:00 ~ 오후 21:00 (연중무휴)
+                                <br>
+                                문의전화 : 051 - 204 - 1444
+                            </p>
+                        </li>
+                        <li>
+                            <h3 class="subname">교통안내</h3>
+                            <ul class="trans">
+                                <li class="car">
+                                    <div class="icon one"><img src="../images/sub4/car.png" alt="car"></div>
+                                    <div class="transtext">
+                                        <h4 class="transname">자가용 이용시</h4>
+                                        <p class="sub">감천문화마을 입구 혹은 부산교육역사관 (부산광역시 사하구 옥천로 130(감천동))에서 하차</p>
+                                        <div class="parking">
+                                            <p class="parktext"><span>주차장 이용 안내</span><br>
+                                                부산교육역사관 지하 공영주차장 : 103대 이용 가능<br>
+                                                * 주차장이 협소하니 인근주차장 혹은 대중교통을 이용하여 주시기 바랍니다.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="subway">
+                                    <div class="icon two"><img src="../images/sub4/subway.png" alt="subway"></div>
+                                    <div class="transtext">
+                                        <h4 class="transname">대중교통 이용시</h4>
+                                        <p class="sub">1호선 괴정역 6번출구 - 마을버스 환승 (사하1, 사하1-1)<br>
+                                            1호선 토성역 6번 출구 - 마을버스 환승 (사하1-1, 서구2, 서구 2-2)</p>
+
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FOOTER -->
+    <div id="footer">
+        <div class="footerbox">
+            <h1 class="fotlogo">
+                <a href="../index.html">
+                    <img src="../images/logo.png" alt="MaruuN">
+                </a>
+            </h1>
+            <ul class="fotgnb">
+                <li>이용약관</li>
+                <li>개인정보처리방침</li>
+                <li>찾아오시는 길</li>
+            </ul>
+            <p><span class="fotspan">주소</span>부산광역시 사하구 감내2로 203(감천동)</p>
+            <p><span class="fotspan">대표전화</span>051-204-1444</p>
+            <p><span class="fotspan">이메일</span>maruun@naver.com</p>
+            <ul class="sns">
+                <li><img src="../images/footer/sns1.png" alt="sns1"></li>
+                <li><img src="../images/footer/sns2.png" alt="sns2"></li>
+                <li><img src="../images/footer/sns3.png" alt="sns3"></li>
+            </ul>
+            <p class="copy">COPYRIGHT © MaruuN. All Rights Reserved.</p>
+        </div>
+    </div>
+    <!-- MOUSE -->
+    <div id="mouse">
+        <svg class="mouse_svg">
+            <circle class="mouse_circle" cx="0" cy="0" r="8"></circle>
+            <polyline class="mouse_polyline" points=""></polyline>
+        </svg>
+    </div>
+    <!-- TOPBUTTON -->
+    <a href="./sub4.html" class="top"><img src="../images/top.png" alt="top버튼"></a>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <script>
+        // AOS
+        AOS.init();
+
+        // TOP ICON
+        $(window).scroll(function () {
+            var height = $(window).scrollTop();
+            if (height > 100) {//아이콘 나타나는 높이
+                $('.top').fadeIn();
+            } else {
+                $('.top').fadeOut();
+            }
+        });
+
+        //TAB
+        function openBoard(evt, boardName) {
+            var i, x, tablinks;
+            x = document.getElementsByClassName("board");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablink");
+            for (i = 0; i < x.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" on", "");
+            }
+            document.getElementById(boardName).style.display = "block";
+            evt.currentTarget.className += " on";
+        }
+
+        // MOUSE
+        var polyline = document.querySelector('.mouse_polyline');
+        var polyPoints = polyline.getAttribute('points');
+        var circle = document.querySelector('.mouse_circle');
+        var circleX = circle.getAttribute('cx');
+        var circleY = circle.getAttribute('cy');
+        var circleR = circle.getAttribute('r');
+
+        var total = 12;
+        var gap = 30;
+        var ease = 0.5;
+        var debounce_removeLine;
+        var debounce_counter = 0;
+
+        var pointer = {
+            x: window.innerWidth / 2,
+            y: window.innerHeight / 2,
+            tx: 0,
+            ty: 0,
+            dist: 0,
+            scale: 1,
+            speed: 2,
+            circRadius: 8,
+            updateCrds: function () {
+                if (this.x != 0) {
+                    this.dist = Math.abs((this.x - this.tx) + (this.y - this.ty));
+                    this.scale = Math.max(this.scale + ((100 - this.dist * 8) * 0.01 - this.scale) * 0.1, 0.25); // gt 0.25 = 4px
+                    this.tx += (this.x - this.tx) / this.speed;
+                    this.ty += (this.y - this.ty) / this.speed;
+                }
+            }
+        };
+
+        var points = [];
+
+        $(window).on('mousemove', function (e) {
+            pointer.x = e.clientX;
+            pointer.y = e.clientY;
+            debounce_counter = 0;
+            drawLine();
+
+            // debounce
+            clearTimeout(debounce_removeLine);
+            debounce_removeLine = setTimeout(() => {
+                //console.log('debounce_removeLine', new Date().getTime());
+                debounce_counter = 12;
+                drawLine();
+            }, 80);
+        })
+
+        $(window).on('mousedown', function (e) {
+            pointer.circRadius = 6;
+            drawLine();
+        });
+
+        $(window).on('mouseup', function (e) {
+            pointer.circRadius = 8;
+            drawLine();
+        });
+
+        function drawLine() {
+            pointer.updateCrds();
+
+            points.push({
+                x: pointer.tx,
+                y: pointer.ty
+            });
+            while (points.length > total) {
+                points.shift();
+                if (points.length > gap) {
+                    for (var i = 0; i < 5; i++) {
+                        points.shift();
+                    }
+                }
+            }
+            var pointsArr = points.map(point => `${point.x},${point.y}`);
+            polyPoints = pointsArr.join(' ');
+            polyline.setAttribute('points', polyPoints);
+
+            // circle
+            circleX = pointer.x;
+            circleY = pointer.y;
+            circleR = pointer.scale * pointer.circRadius;
+
+            circle.setAttribute('cx', circleX);
+            circle.setAttribute('cy', circleY);
+            circle.setAttribute('r', circleR);
+
+            if (debounce_counter > 0) {
+                debounce_counter--;
+                requestAnimationFrame(drawLine);
+            }
+        }
+    </script>
+</body>
+
+</html>
